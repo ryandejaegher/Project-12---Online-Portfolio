@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.btn-outline-primary {
+	border-color: rgba(64, 183, 197, 1);
+	color: rgba(64, 183, 197, 1);
+}
+
+.modal-footer > a,
+.modal-footer > a:hover{
+	background-color: rgba(64, 183, 197, 1);
+	border-color: rgba(64, 183, 197, 1);
+}
+
+.modal-footer > a:hover {
+	-webkit-filter: brightness(110%);
+	filter: brightness(110%);
+}
+
+.btn-outline-primary:hover {
+	background-color: rgba(64, 183, 197, 1);
+	border-color: rgba(64, 183, 197, 1);
+}
+
+.card > a:hover {
+	transform: scale(1.01);
+	transition: transform .2s ease-in-out;
+}
+
+.navbar,
+#portfolio,
+.jumbotron {
+	border-bottom: 1px solid rgba(194,194,194,.7);
+}
